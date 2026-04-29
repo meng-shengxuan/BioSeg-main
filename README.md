@@ -4,6 +4,8 @@ BioSeg is a semantic segmentation project for marine biofouling / underwater bio
 
 The current implementation uses a MambaVision-style backbone with a UPerNet segmentation head. The dataset labels include algal, barnacle, composite, other, sea anemone, and sea squirt categories, plus background.
 
+The dataset will be made publicly available upon official acceptance of the paper.
+
 ## Repository Structure
 
 ```text
@@ -52,6 +54,8 @@ Main dependencies:
 - timm, einops, transformers, OpenCV, Pillow
 
 If your CUDA version is different, install the PyTorch/MMCV versions that match your local GPU environment.
+
+We recommend placing this project under the MambaVision directory to ensure proper execution and compatibility with the original environment: https://github.com/NVlabs/MambaVision
 
 ## Data
 
@@ -160,7 +164,7 @@ Before uploading this repository to GitHub, please check the following items:
 ## Citation
 
 If you use this code or dataset, please cite the associated paper:
-BioSeg: A lightweight Mamba-based semantic segmentation method for biofouling severity grading toward hull cleaning robots.
+'BioSeg: A lightweight Mamba-based semantic segmentation method for biofouling severity grading toward hull cleaning robots.'
 
 ## Acknowledgements
 
